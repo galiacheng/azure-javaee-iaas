@@ -237,7 +237,7 @@
                                 <configuration>
                                     <skip>${skip.bicep.exec}</skip>
                                     <workingDirectory>${project.build.directory}/bicep</workingDirectory>
-                                    <executable>bicep</executable>
+                                    <executable>az bicep</executable>
                                     <commandlineArgs>build --outdir ${project.build.directory}/arm
                                         ${project.build.directory}/bicep/mainTemplate.bicep
                                     </commandlineArgs>
@@ -290,7 +290,7 @@
                                 <configuration>
                                     <skip>${skip.bicep.exec}</skip>
                                     <workingDirectory>${project.build.directory}/bicep</workingDirectory>
-                                    <executable>bicep</executable>
+                                    <executable>az bicep</executable>
                                     <commandlineArgs>build --outdir ${project.build.directory}/arm
                                         ${project.build.directory}/bicep/mainTemplate.bicep
                                     </commandlineArgs>
